@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script into a directory where the automated
+# pyinstaller process creates a standalone executable
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.toml
+.cache
+.pytest_cache/
+.noscript_cache/
+.status
+.coverage
+.coverage.*
+.hypothesis/
+.nox/
+
+# Poetry, Pipenv, and Virtual Environments
+# It's best practice to keep your virtual environment inside the project folder as .venv/
+.venv/
+venv/
+ENV/
+env/
+Active_Tools/
+
+# Spyder project settings
+.spyproject
+.spyproject/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pyenv
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments / Secrets (Crucial: never commit passwords or API keys!)
+.env
+.env.*
+.secrets
+
+# IDEs and Editors (Optional, but highly recommended)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
