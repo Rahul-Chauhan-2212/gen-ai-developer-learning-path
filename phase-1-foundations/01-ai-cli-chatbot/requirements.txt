@@ -1,0 +1,5 @@
+# Dependencies
+openai
+python-dotenv
+rich
+pytest

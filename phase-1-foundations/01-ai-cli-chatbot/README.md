@@ -72,8 +72,9 @@ Build a chatbot that:
 ```txt
 01-ai-cli-chatbot/
 │
+|
 ├── app/
-│   ├── main.py
+|   |__ __init__.py
 │   ├── chatbot.py
 │   ├── prompts.py
 │   ├── config.py
@@ -83,8 +84,11 @@ Build a chatbot that:
 │   └── chat_history.json
 │
 ├── tests/
+|   |__ __init__.py
 │   └── test_chatbot.py
-│
+|
+│__ main.py
+|
 ├── .env
 ├── .gitignore
 ├── requirements.txt
@@ -96,13 +100,13 @@ Build a chatbot that:
 
 # 📁 Folder Explanation
 
-## `app/`
-
-Contains the main application code.
-
 ### `main.py`
 
 Application entry point.
+
+## `app/`
+
+Contains the main application code.
 
 ### `chatbot.py`
 
@@ -206,7 +210,7 @@ pip install -r requirements.txt
 # ▶️ Running the Application
 
 ```bash
-python app/main.py
+python -m app/main.py
 ```
 
 ---
@@ -296,3 +300,7 @@ https://docs.python.org/3/
 https://fastapi.tiangolo.com/
 
 ---
+
+
+### Demo
+[Demo](AI CLI Chatbot.mov)
