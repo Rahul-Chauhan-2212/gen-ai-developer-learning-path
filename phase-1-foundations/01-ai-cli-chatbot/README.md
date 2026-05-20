@@ -303,4 +303,4 @@ https://fastapi.tiangolo.com/
 
 
 ### Demo
-[Demo](AI CLI Chatbot.mov)
+[Demo](AI%20CLI%20Chatbot.mov)
