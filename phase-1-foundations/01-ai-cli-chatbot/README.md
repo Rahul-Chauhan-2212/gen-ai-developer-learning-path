@@ -303,4 +303,6 @@ https://fastapi.tiangolo.com/
 
 
 ### Demo
-[Demo](AI%20CLI%20Chatbot.mov)
+
+https://github.com/user-attachments/assets/14da4f82-3a24-495c-9c4c-44cec3730192
+
