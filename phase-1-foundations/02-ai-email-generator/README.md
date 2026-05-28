@@ -220,7 +220,7 @@ pip install -r requirements.txt
 # ▶️ Running the Application
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ---
@@ -308,6 +308,12 @@ GET /health
 POST /generate-email
 ```
 
+## Swagger
+```
+http://127.0.0.1:8000/docs
+```
+![img.png](img.png)
+
 ---
 
 # 🚀 Future Improvements
@@ -375,3 +381,27 @@ https://platform.openai.com/docs/
 https://docs.pydantic.dev/
 
 ---
+
+
+## Demo
+
+### Sample Requests
+
+```
+curl --location 'localhost:8000/generate-email' \
+--header 'Content-Type: application/json' \
+--data '{
+  "purpose": "Request internship opportunity",
+  "tone": "professional",
+  "recipient": "HR Manager",
+  "key_points": [
+    "Python developer",
+    "Interested in AI",
+    "Available immediately"
+  ]
+}'
+```
+
+
+https://github.com/user-attachments/assets/a0afc34e-3dc4-45d7-ad6c-3380551e7d6e
+
